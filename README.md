@@ -45,11 +45,11 @@ $:
 ## Example
 ```
 docker run -d -t \
---name zecminer \
+--name ewbf-miner \
 --restart always \
 --runtime=nvidia \
 djenriquez/ewbf-cuda-miner \
---server zcl.suprnova.cc --port 4042 --user t1WsdsfAzbxUXPgVhT63nm62q97divGgp1s --pass x --eexit
+--server equihash.usa.nicehash.com --port 3357 --user 33DyXVuy3R5jfLZRRpEQcXXAJ1Xz5rkGxE --pass x --eexit
 ```
 # Dependencies
 - nvidia GPUs
